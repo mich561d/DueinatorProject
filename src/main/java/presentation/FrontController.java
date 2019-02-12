@@ -21,8 +21,7 @@ public class FrontController extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
             ICommand action = CommandController.from(request);
             String view = action.execute(request, response);
@@ -31,15 +30,11 @@ public class FrontController extends HttpServlet {
             } else {
                 request.getRequestDispatcher("/WEB-INF/" + view + ".jsp").forward(request, response);
             }
-        } catch (IOException | ServletException ex) {
+        } catch (IOException | ServletException | OurException ex) {
             //new Logging().write(Level.WARNING, ex.getMessage());
             request.getSession().setAttribute("error", ex.getMessage());
-            request.getRequestDispatcher("/WEB-INF/Error.jsp").forward(request, response);
-        } catch (OurException ex) {
-            //new Logging().write(ex.getLevel(), ex.getMessage());
-            request.getSession().setAttribute("error", ex.getMessage());
-            request.getRequestDispatcher("/WEB-INF/Error.jsp").forward(request, response);
-        } 
+            request.getRequestDispatcher("/WEB-INF/error.jsp").forward(request, response);
+        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

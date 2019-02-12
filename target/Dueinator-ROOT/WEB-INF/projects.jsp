@@ -3,14 +3,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Dueinator</title>
+        <title>3. Semester</title>
         <%@include file="/Assets/Imports/Bootstrap.jsp" %>
     </head>
     <body style="background-color: #252525;">
         <%@include file="/Assets/Imports/Header.jsp" %>
         <div style="height: 60px"></div>
-        <div style="text-align: center">
-            <img src="Assets/Images/favicon.png" alt=""/>
-        </div>
     </body>
 </html>
