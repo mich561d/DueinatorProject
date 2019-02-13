@@ -9,5 +9,6 @@
     <body style="background-color: #252525;">
         <%@include file="/Assets/Imports/Header.jsp" %>
         <div style="height: 60px"></div>
+        <a href="https://dueinator.dk/calculator/"> CA1 </a>
     </body>
 </html>
