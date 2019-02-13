@@ -15,6 +15,10 @@
                     <input type="hidden" name="command" value="projects">
                     <input type="submit" class="btn btn-outline-success" value="Projects" />
                 </form>
+                <form action="FrontController" method="POST" style="margin-right: 1%">
+                    <input type="hidden" name="command" value="tasks">
+                    <input type="submit" class="btn btn-outline-success" value="Tasks" />
+                </form>
             </div>
         </nav>
     </div>

@@ -6,3 +6,4 @@ presentation\commands\UnknownCommand.class
 logic\LogicFacade.class
 logic\exceptions\OurException.class
 presentation\FrontController.class
+presentation\commands\TaskPageCommand.class
