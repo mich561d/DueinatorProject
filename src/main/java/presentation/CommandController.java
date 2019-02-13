@@ -10,7 +10,6 @@ public abstract class CommandController {
 
     private static void initCommands() {
         commands = new HashMap<>();
-        commands.put("projects", new ProjectPageCommand());
         commands.put("tasks", new TaskPageCommand());
     }
 

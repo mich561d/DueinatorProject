@@ -1,7 +1,6 @@
 database\DatabaseFacade.class
 presentation\CommandController.class
 presentation\commands\ICommand.class
-presentation\commands\ProjectPageCommand.class
 presentation\commands\UnknownCommand.class
 logic\LogicFacade.class
 logic\exceptions\OurException.class

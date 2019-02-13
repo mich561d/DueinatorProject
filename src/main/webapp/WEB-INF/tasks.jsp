@@ -36,5 +36,25 @@
                 </tbody>
             </table>
         </div>
+        <div style="width: 50%">
+            <table class="table table-hover table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">CA</th>
+                        <th scope="col">Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>CA1</td>
+                        <td>        
+                            <a href="https://dueinator.dk/calculator/">Basic JavaScript, DOM manipulation and Hosting</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
