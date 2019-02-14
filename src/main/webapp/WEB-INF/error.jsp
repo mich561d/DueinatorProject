@@ -11,7 +11,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
+    <body style="background-color: #252525;">
+        <%@include file="/Assets/Imports/Header.jsp" %>
+        <div style="height: 60px"></div>
         <h1>Hello Error!</h1>
     </body>
 </html>
