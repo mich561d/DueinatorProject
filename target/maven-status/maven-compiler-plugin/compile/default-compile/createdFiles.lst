@@ -1,8 +1,0 @@
-database\DatabaseFacade.class
-presentation\CommandController.class
-presentation\commands\ICommand.class
-presentation\commands\UnknownCommand.class
-logic\LogicFacade.class
-logic\exceptions\OurException.class
-presentation\FrontController.class
-presentation\commands\TaskPageCommand.class
