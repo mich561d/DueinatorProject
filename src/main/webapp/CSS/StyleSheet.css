@@ -157,11 +157,8 @@ a:active {
 }
 
 .navTitle {
+    margin-top: 20px;
     text-decoration: underline;
-}
-
-.endOfModule {
-    margin-bottom: 20px;
 }
 
 .sectionHolder {
